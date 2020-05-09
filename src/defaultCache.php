@@ -3,7 +3,7 @@
 namespace hardmode\laravelipinfo;
 
 use Illuminate\Support\Facades\Cache;
-use hardmode\hardmode\cache\CacheInterface;
+use ipinfo\ipinfo\cache\CacheInterface;
 
 
 /**
