@@ -23,7 +23,7 @@ Open your application's `\app\Http\Kernel.php` file and add the following to the
 ```
 protected $middleware = [
   ...
-  \ipinfo\ipinfolaravel\ipinfolaravel::class,
+  \hardmode\laravelipinfo\ipinfolaravel::class,
   ];
 ```
 
