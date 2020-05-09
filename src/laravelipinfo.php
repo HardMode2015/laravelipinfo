@@ -3,7 +3,7 @@
 namespace hardmode\laravelipinfo;
 
 use Closure;
-use hardmode\ipinfo\IPinfo as IPinfoClient;
+use ipinfo\ipinfo\IPinfo as IPinfoClient;
 use hardmode\laravelipinfo\DefaultCache;
 
 class laravelipinfo
