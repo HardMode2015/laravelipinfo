@@ -15,7 +15,7 @@ The free plan is limited to 50,000 requests per month, and doesn't include some 
 #### Installation
 
 ```
-composer require ipinfo/ipinfolaravel
+composer require hardmode/laravelipinfo
 ```
 
 Open your application's `\app\Http\Kernel.php` file and add the following to the `Kernel::middleware` property:
@@ -23,7 +23,7 @@ Open your application's `\app\Http\Kernel.php` file and add the following to the
 ```
 protected $middleware = [
   ...
-  \hardmode\laravelipinfo\ipinfolaravel::class,
+  \hardmode\laravelipinfo\laravelipinfo::class,
   ];
 ```
 
